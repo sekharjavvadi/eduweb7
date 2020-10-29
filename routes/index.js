@@ -5,7 +5,7 @@ const Blogs=require('../models/schema')
 const User=require('../models/user')
 const { ensureAuth,ensureGuest }=require('../middleware/auth2')
 const {design}=require('./courses')
-const {checkcourses}=require('./dummy2')
+//const {checkcourses}=require('./dummy2')
 
 // load config
 const dotenv = require('dotenv')
