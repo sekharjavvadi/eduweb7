@@ -57,10 +57,10 @@ app.use('/auth',require('./routes/auth'));
  app.use('/coursetopic',require('./routes/courselist'));//
 
 app.use('/update',require('./routes/dummy'));
- //app.use('/',require('./routes/indexx'));//
-app.get('/',(req,res)=>{
-  res.send("this is sekhar how are you")
-})
+ app.use('/',require('./routes/indexx'));//
+// app.get('/',(req,res)=>{
+//   res.send("this is sekhar how are you")
+// })
 
 
 app.listen(PORT,function(){
