@@ -63,7 +63,9 @@ app.get('/',(req,res)=>{
 })
 
 
-app.listen(PORT,'localhost')
+app.listen(PORT,function(){
+  console.log(`app running on port ${PORT}`)
+})
 
 
 
